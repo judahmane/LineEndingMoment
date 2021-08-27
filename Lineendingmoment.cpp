@@ -15,3 +15,27 @@ int main()
 		std::cout << std::endl;
 	}
 }
+
+/* 
+
+//For people who wanna use input instead of declaring it in the for loop :))))))))))))))))
+
+int main()
+{
+    int input1;
+
+	std::cout << "Enter Number of Rows: ";
+	std::cin >> input1;
+
+	for (int i = 0; i < input1; i++)
+	{
+		for (int j = 0; j <= i; j++)
+		{
+			std::cout << "*";
+	    }
+		std::cout << std::endl;
+	}
+}
+
+
+*/
